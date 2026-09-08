@@ -34,6 +34,24 @@ From a Claude Code session:
 /reload-plugins
 ```
 
+## Install In Codex
+
+This repository's marketplace manifest and `UserPromptSubmit` hook are for
+Claude Code. Codex can use the orchestration skill, but not that hook.
+
+Install the skill into Codex's skill directory:
+
+```bash
+git clone https://github.com/quannadev/multi-cli-orchestrator.git
+mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
+cp -R multi-cli-orchestrator/plugins/multi-cli-orchestrator/skills/multi-cli-orchestrator \
+  "${CODEX_HOME:-$HOME/.codex}/skills/"
+```
+
+Start a new Codex task after installation. Invoke it as
+`$multi-cli-orchestrator`, or let Codex select it when the request explicitly
+asks to coordinate `codex` and `agy`.
+
 ## Verify
 
 From the repository root:
