@@ -1,5 +1,7 @@
 # Multi-CLI Orchestrator
 
+![Multi-CLI orchestration workflow](assets/multi-cli-orchestrator-banner.svg)
+
 Claude Code plugin for explicitly coordinating `codex` and `agy`.
 
 ## Included

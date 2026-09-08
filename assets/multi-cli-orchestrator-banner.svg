@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Multi-CLI orchestration workflow</title>
+  <desc id="description">Three developer-tool workflows converge into one integrated output.</desc>
+  <rect width="1600" height="640" fill="#0C1117"/>
+  <g stroke="#1B2938" stroke-width="1">
+    <path d="M0 80H1600M0 160H1600M0 240H1600M0 320H1600M0 400H1600M0 480H1600M0 560H1600"/>
+    <path d="M80 0V640M160 0V640M240 0V640M320 0V640M400 0V640M480 0V640M560 0V640M640 0V640M720 0V640M800 0V640M880 0V640M960 0V640M1040 0V640M1120 0V640M1200 0V640M1280 0V640M1360 0V640M1440 0V640M1520 0V640"/>
+  </g>
+  <g opacity=".55">
+    <rect x="92" y="98" width="260" height="110" rx="10" fill="#121C27" stroke="#2D4257"/>
+    <rect x="92" y="265" width="260" height="110" rx="10" fill="#121C27" stroke="#2D4257"/>
+    <rect x="92" y="432" width="260" height="110" rx="10" fill="#121C27" stroke="#2D4257"/>
+    <path d="M126 132H246M126 154H312M126 176H214" stroke="#5A7896" stroke-width="8" stroke-linecap="round"/>
+    <path d="M126 299H278M126 321H224M126 343H312" stroke="#5A7896" stroke-width="8" stroke-linecap="round"/>
+    <path d="M126 466H225M126 488H310M126 510H255" stroke="#5A7896" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M352 153C520 153 508 238 684 238H910" stroke="#2CC8D8" stroke-width="6"/>
+    <path d="M352 320H910" stroke="#F2A65A" stroke-width="6"/>
+    <path d="M352 487C520 487 508 402 684 402H910" stroke="#77D4AE" stroke-width="6"/>
+    <path d="M654 238H910M654 402H910" stroke="#2B4357" stroke-width="18"/>
+    <path d="M654 238H910" stroke="#2CC8D8" stroke-width="6"/>
+    <path d="M654 402H910" stroke="#77D4AE" stroke-width="6"/>
+  </g>
+  <g fill="#0C1117" stroke-width="6">
+    <circle cx="352" cy="153" r="15" stroke="#2CC8D8"/>
+    <circle cx="352" cy="320" r="15" stroke="#F2A65A"/>
+    <circle cx="352" cy="487" r="15" stroke="#77D4AE"/>
+    <circle cx="684" cy="238" r="13" stroke="#2CC8D8"/>
+    <circle cx="684" cy="320" r="13" stroke="#F2A65A"/>
+    <circle cx="684" cy="402" r="13" stroke="#77D4AE"/>
+  </g>
+  <g>
+    <rect x="910" y="156" width="470" height="328" rx="18" fill="#111A24" stroke="#38516A" stroke-width="2"/>
+    <rect x="938" y="186" width="414" height="44" rx="8" fill="#162535"/>
+    <circle cx="966" cy="208" r="7" fill="#F2A65A"/>
+    <circle cx="990" cy="208" r="7" fill="#2CC8D8"/>
+    <circle cx="1014" cy="208" r="7" fill="#77D4AE"/>
+    <path d="M952 274H1070M952 304H1296M952 334H1176M952 364H1260M952 394H1118" stroke="#53718E" stroke-width="11" stroke-linecap="round"/>
+    <path d="M952 274H1046M952 334H1120M952 394H1092" stroke="#2CC8D8" stroke-width="11" stroke-linecap="round"/>
+    <path d="M1166 304H1296M1190 364H1260" stroke="#F2A65A" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="1309" cy="438" r="13" fill="#77D4AE"/>
+    <path d="M1303 438L1308 443L1318 431" stroke="#0C1117" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g fill="#2CC8D8">
+    <circle cx="480" cy="153" r="5"/>
+    <circle cx="560" cy="179" r="5"/>
+    <circle cx="584" cy="320" r="5" fill="#F2A65A"/>
+    <circle cx="494" cy="487" r="5" fill="#77D4AE"/>
+    <circle cx="566" cy="448" r="5" fill="#77D4AE"/>
+  </g>
+</svg>
