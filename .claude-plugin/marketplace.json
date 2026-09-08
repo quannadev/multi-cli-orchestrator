@@ -10,16 +10,9 @@
     {
       "name": "multi-cli-orchestrator",
       "source": "./plugins/multi-cli-orchestrator",
-      "description": "Orchestrate coding (codex) and design (agy) CLI subagents while Claude plans and integrates.",
+      "description": "Orchestrate coding (codex) and design (agy) CLI subagents while Claude plans and integrates, plus a hook that translates and enriches non-English prompts before Claude sees them.",
       "category": "development",
-      "keywords": ["multi-agent", "codex", "agy", "antigravity", "orchestration"]
-    },
-    {
-      "name": "prompt-localizer",
-      "source": "./plugins/prompt-localizer",
-      "description": "Translate non-English prompts and enrich them with project-specific detail before Claude processes them.",
-      "category": "productivity",
-      "keywords": ["hook", "translation", "vietnamese", "localization", "context"]
+      "keywords": ["multi-agent", "codex", "agy", "antigravity", "orchestration", "hook", "translation", "vietnamese"]
     }
   ]
 }
