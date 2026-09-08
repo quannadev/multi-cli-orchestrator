@@ -1,0 +1,17 @@
+{
+  "description": "Detects non-English prompts, translates them to English, and enriches them with project-specific detail (stack, existing patterns) before Claude processes them — so downstream steps don't have to guess or ask back.",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node",
+            "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/prompt-rewriter.js"],
+            "timeout": 45
+          }
+        ]
+      }
+    ]
+  }
+}

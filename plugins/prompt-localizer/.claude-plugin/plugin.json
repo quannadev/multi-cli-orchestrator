@@ -1,0 +1,19 @@
+{
+  "name": "prompt-localizer",
+  "displayName": "Prompt Localizer",
+  "description": "UserPromptSubmit hook that detects non-English prompts, translates them, and enriches them with project-specific detail (stack, existing files/patterns) as context for Claude — so it doesn't have to ask back or guess.",
+  "version": "1.0.0",
+  "author": {
+    "name": "QuanNguyen"
+  },
+  "license": "MIT",
+  "keywords": [
+    "hook",
+    "user-prompt-submit",
+    "translation",
+    "vietnamese",
+    "localization",
+    "context"
+  ],
+  "category": "productivity"
+}

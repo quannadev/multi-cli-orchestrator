@@ -13,6 +13,13 @@
       "description": "Orchestrate coding (codex) and design (agy) CLI subagents while Claude plans and integrates.",
       "category": "development",
       "keywords": ["multi-agent", "codex", "agy", "antigravity", "orchestration"]
+    },
+    {
+      "name": "prompt-localizer",
+      "source": "./plugins/prompt-localizer",
+      "description": "Translate non-English prompts and enrich them with project-specific detail before Claude processes them.",
+      "category": "productivity",
+      "keywords": ["hook", "translation", "vietnamese", "localization", "context"]
     }
   ]
 }
