@@ -1,0 +1,20 @@
+{
+  "name": "multi-cli-orchestrator",
+  "displayName": "Multi-CLI Agent Orchestrator",
+  "description": "Orchestrate a task across specialized CLI subagents: delegate coding/implementation to codex (OpenAI Codex CLI) and design/image/icon/vector work to agy (Google Antigravity CLI), while Claude plans, dispatches, and integrates the results.",
+  "version": "1.0.0",
+  "author": {
+    "name": "QuanNguyen"
+  },
+  "license": "MIT",
+  "keywords": [
+    "multi-agent",
+    "orchestration",
+    "codex",
+    "agy",
+    "antigravity",
+    "subagent",
+    "cli"
+  ],
+  "category": "development"
+}
